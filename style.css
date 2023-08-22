@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+body{
+    background-color: #e3e6e6;
+}
+
+.navbar{
+    display: flex;
+    background-color: #131921;
+    gap: 5px;
+}
+
+.fa-location-dot{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.location{
+    display: flex;
+    gap: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.location p{
+    font-size: 12px;
+}
+.location h6{
+    font-size: 14px;
+}
+#drop{
+    width: 50px;
+    height: 39px;
+    border-radius: 4px 0px 0px 4px;
+    text-align: center;
+    background-color:#e6e6e6 ;
+}
+#search{
+    height:37px ;
+    width: 737px;
+    border-radius: 0px 0px 0px 0px;
+    border: 0px;
+
+    
+}
+#search-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    
+}
+#yellow-search{
+    background-color: #febd69;
+    width: 45px;
+    height: 39px;
+    text-align: center;
+    border-radius: 0px 4px 4px 0px
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 11px;
+}
+#us{
+    background-color:  #131921;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+#lang{
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 15px;
+    padding: 5px
+}
+
+#account{
+    background-color: #131921 ;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info p{
+    font-size: 12px;
+
+}
+.info{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}
+.orders p{
+    font-size: 12px;
+}
+.orders h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+.orders{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+ 
+}
+.fa-cart-shopping{
+    font-size: 25px;
+}
+.cart{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.navbar2{
+    height: 39px;
+
+    background-color: #232f3e;
+}
+.fa-bars{
+    font-size: 19px;
+    padding: 9px;
+}
+#hamburger{
+    display: flex;
+}
+#hamburger p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+    
+    margin-right: 15px;
+}
+.offers{
+    color: white;
+    display: flex;
+    gap: px;
+}
+.hero{
+    background-image: url(images/hero\ img.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content:center ;
+    align-items: flex-end;
+}
+#hero-div{
+    width: 1460px;
+    background-color: #f5f6f6;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.img1{
+    /* border: 2px solid black; */
+    padding: 20px;
+    width: 350px;
+    height: 370px;
+    margin-left: 10px;
+    background-color: white;
+    margin-right:10px;
+
+}
+.products-1{
+    background-color: #e3e6e6;
+    display: flex;
+}
+h2{
+    font-size: 21px
+}
+
+a{
+    text-decoration: none;
+    color: #b0d8fb(37, 37, 232);
+}
+.discount{
+    background-color: #cc0c39;
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    width: 45px;
+    }
+#aaa{
+    display: flex;
+    gap: 6px;
+}
+#aaa p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.price{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.price h5{
+    font-size: 17px;
+    font-weight: lighter;
+}
+.price p{
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img1 img{
+    padding-bottom: 10px
+}
+.products-2{
+    display: flex;
+    margin-top: 25px;
+}
+.img2{
+    /* border: 2px solid black; */
+    padding: px;
+    width: 240px;
+    height: 390px;
+    margin-left: px;
+    background-color: white;
+
+}
+#deals-under{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px   ;
+}
+.repurchase{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+    margin-right: 10px;
+}
+.beauty{
+    padding-top: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.beauty p{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.products-3{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.back{
+    background-color: #37475a;
+    color: white;
+    font-size: 13px;
+    padding:16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.infos{
+    height: 339px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.infos h5{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    margin-top: 50px;
+}
+.infos p{
+    color: #DDDDDD;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer-2{
+    background-color: #232f3e ;
+}
+#english{
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+    width: 65px;
+    height: 15px;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.fa-globe{
+    font-size: 15px;
+}
+#usd{
+    border: 1px solid #CCCCCC;
+    width: 115px;
+    padding: 6px;
+    font-size: 13px;
+    height: 15px;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#us-flag{
+    color: #CCCCCC;
+    display: flex;
+    gap: 5px;
+    border: 1px solid #CCCCCC;
+    width: 125px;
+    padding: 6px;
+    font-size: 13px;
+    height: 15px;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+#amazon{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.footer-2{
+    border-top: 1px solid #CCCCCC;
+    padding: 20px;
+}
+#apps{
+    height: 305px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#apps h5{
+    font-size: 12px;
+    color: #DDDDDD;
+    font-weight: lighter;
+}
+#apps p{
+    font-size: 12px;
+    color: #999999;
+}
+#terms-and-cond{
+    color: #DDDDDD;
+    background-color:#131a22 ;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+#terms-and-cond p{
+    padding: 3px;
+}
